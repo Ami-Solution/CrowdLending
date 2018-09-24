@@ -35,11 +35,18 @@ We have built a Crowdlend Platform on top of Dharma Protocol where
 
 ## Steps to run CrowdLending Platform Locally
 - clone / fork the repo => [git clone https://github.com/Ami-Solution/crowdlending](git clone https://github.com/Ami-Solution/crowdlending)
-- `cd CrowdLending/dapp/`
-- `npm run blockchain`  - Run local Blockchain
+- `cd crowdlending/dapp/`
+- `npm install @dharmaprotocol `
+- `npm install react `
+- `npm install react-dom `
+- `npm install react-scripts `
+- `npm install reactjs-popup `
+- `npm install simple-react-modal `
+- `npm install truffle-contract `
+- `npm run blockchain`  - Run local Blockchain if needed
 - `cd node_modules/@dharmaprotocol/contracts`
 - `./scripts/deploy_development.sh` - Run script to compile, migrate, link, build, generate artifacts
 - Modifify scripts/prepare_dist.sh according to path of tsc
 - `./scripts/prepare_dist.sh - Run` script to prepare dist folder which will be picked by dharma.js
-- `cd CrowdLending/dapp/`
+- `cd crowdlending/dapp/`
 - `npm start` - run this command to bring up the ui at 3000 port.
