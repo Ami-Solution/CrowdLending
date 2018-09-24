@@ -1,5 +1,5 @@
 {
-    "name": "test-app",
+    "name": "crowdlending-app",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -9,13 +9,13 @@
         "react-scripts": "1.1.4",
         "reactjs-popup": "^1.1.3",
         "simple-react-modal": "^0.5.1",
+        "web3": "^1.0.0-beta.36",
         "truffle-contract": "^3.0.6"
     },
     "devDependencies": {
         "dharma-chain": "1.0.9"
     },
     "scripts": {
-        "blockchain": "dharma-chain",
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test --env=jsdom",

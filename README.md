@@ -34,7 +34,7 @@ We have built a Crowdlend Platform on top of Dharma Protocol where
 
 
 ## Steps to run CrowdLending Platform Locally
-- clone the repo.
+- clone / fork the repo => [git clone https://github.com/Ami-Solution/crowdlending](git clone https://github.com/Ami-Solution/crowdlending)
 - `cd CrowdLending/dapp/`
 - `npm run blockchain`  - Run local Blockchain
 - `cd node_modules/@dharmaprotocol/contracts`
